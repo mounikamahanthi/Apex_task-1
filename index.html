@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indian Cricket Teams</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1> Indian Cricket Teams</h1>
+    <p>Click on a team to see details</p>
+  </header>
+
+  <section class="teams">
+    <div class="card" onclick="showTeam('india')">
+      <h2>India National Team</h2>
+    </div>
+
+    <div class="card" onclick="showTeam('mi')">
+      <h2>Mumbai Indians</h2>
+    </div>
+
+    <div class="card" onclick="showTeam('csk')">
+      <h2>Chennai Super Kings</h2>
+    </div>
+
+    <div class="card" onclick="showTeam('rcb')">
+      <h2>Royal Challengers Bangalore</h2>
+    </div>
+  </section>
+
+  <section id="teamInfo" class="info">
+    <h2>Select a team to see details</h2>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
